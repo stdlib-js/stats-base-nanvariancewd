@@ -4,7 +4,29 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-03-29)
+## Unreleased (2025-04-02)
+
+<section class="features">
+
+### Features
+
+-   [`41d0632`](https://github.com/stdlib-js/stdlib/commit/41d0632145a36b71711b27c0ee7add3c0434c7f5) - refactor and add protocol support to `stats/base/nanvariancewd` [(#6023)](https://github.com/stdlib-js/stdlib/pull/6023)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+### Closed Issues
+
+This release closes the following issue:
+
+[#5677](https://github.com/stdlib-js/stdlib/issues/5677)
+
+</section>
+
+<!-- /.issues -->
 
 <section class="commits">
 
@@ -12,6 +34,7 @@
 
 <details>
 
+-   [`41d0632`](https://github.com/stdlib-js/stdlib/commit/41d0632145a36b71711b27c0ee7add3c0434c7f5) - **feat:** refactor and add protocol support to `stats/base/nanvariancewd` [(#6023)](https://github.com/stdlib-js/stdlib/pull/6023) _(by Prajjwal Bajpai, Athan Reines, Aayush Khanna)_
 -   [`4de7fc4`](https://github.com/stdlib-js/stdlib/commit/4de7fc4b59fa279a67b642213e90760eaf5f7b88) - **refactor:** update paths _(by Aayush Khanna)_
 
 </details>
@@ -24,9 +47,11 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
 -   Aayush Khanna
+-   Athan Reines
+-   Prajjwal Bajpai
 
 </section>
 
