@@ -1,0 +1,4 @@
+// Copyright (c) 2025 The Stdlib Authors. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+/// <reference types="./index.d.ts" />
+import r from"https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-stride2offset@v0.1.0-esm/index.mjs";import t from"https://cdn.jsdelivr.net/gh/stdlib-js/array-base-arraylike2object@v0.2.1-esm/index.mjs";function e(e,s,a,n){return function(r,e,s,a,n){var i,o,f,d,c,u,N,m,j;if(r<=0)return NaN;if((u=t(s)).accessorProtocol)return function(r,t,e,s,a){var n,i,o,f,d,c,u,N,m,j;if(i=e.data,o=e.accessors[0],1===r||0===s)return(N=o(i,a))==N&&r-t>0?0:NaN;for(c=a,d=0,f=0,m=0,j=0;j<r;j++)(N=o(i,c))==N&&(d+=(n=N-f)*(N-(f+=n/(m+=1)))),c+=s;return(u=m-t)<=0?NaN:d/u}(r,e,u,a,n);if(1===r||0===a)return(N=s[n])==N&&r-e>0?0:NaN;for(d=n,f=0,o=0,m=0,j=0;j<r;j++)(N=s[d])==N&&(f+=(i=N-o)*(N-(o+=i/(m+=1)))),d+=a;return(c=m-e)<=0?NaN:f/c}(e,s,a,n,r(e,n))}export{e as default};
+//# sourceMappingURL=index.mjs.map
